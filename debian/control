@@ -1,0 +1,24 @@
+Source: nodeboxeditor
+Section: devel
+Priority: optional
+Maintainer: JBBgameich <jbb.mail@gmx.de>
+Build-Depends: debhelper (>= 9),
+               libirrlicht-dev,
+               cmake,
+               libpng-dev,
+               libbz2-dev,
+               libjpeg62-turbo-dev,
+               libgl1-mesa-dev,
+               zlib1g-dev
+Standards-Version: 4.1.1
+Homepage: https://github.com/rubenwardy/nodeboxeditor
+Vcs-Git: git://github.com/jbbgameich/nodeboxeditor-packaging.git
+Vcs-Browser: https://github.com/jbbgameich/nodeboxeditor-packaging
+
+Package: nodeboxeditor
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}   
+Description: Editor to make nodeboxes for nodes in Minetest and similar games
+ Create custom nodeboxes and export them as lua file,
+ c++ mod or and the obj format.
