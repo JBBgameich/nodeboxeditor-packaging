@@ -1,6 +1,6 @@
---- nodeboxeditor-0.9.0.orig/CMakeLists.txt
-+++ nodeboxeditor-0.9.0/CMakeLists.txt
-@@ -148,6 +148,7 @@ install(FILES   media/sky.jpg
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -148,6 +148,7 @@
  install(FILES   media/texture_box.png       DESTINATION share/nodeboxeditor/media)
  install(FILES   media/texture_terrain.png   DESTINATION share/nodeboxeditor/media)
  install(FILES   media/icon.png              DESTINATION share/nodeboxeditor/media)
@@ -8,9 +8,9 @@
  install(FILES   media/rotate_x.png          DESTINATION share/nodeboxeditor/media)
  install(FILES   media/rotate_y.png          DESTINATION share/nodeboxeditor/media)
  install(FILES   media/rotate_z.png          DESTINATION share/nodeboxeditor/media)
---- nodeboxeditor-0.9.0.orig/nodeboxeditor.desktop
-+++ nodeboxeditor-0.9.0/nodeboxeditor.desktop
-@@ -5,7 +5,7 @@ Comment=Edit and create node boxes for M
+--- a/nodeboxeditor.desktop
++++ b/nodeboxeditor.desktop
+@@ -5,7 +5,7 @@
  GenericName[fr]=Éditeur de node boxes pour Minetest
  Comment[fr]=Créer et éditer des node boxes pour Minetest
  Exec=nodeboxeditor
